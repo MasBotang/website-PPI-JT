@@ -21,10 +21,24 @@
         padding: 15px 0;
         margin: 0;
     }
-
+    .collapsee{
+        position: absolute !important; 
+        top: 100%; 
+        left: 0;
+        padding: 0px 40px;
+        margin: auto;
+        width: 100%; 
+        z-index: 10;
+        background-color: #FCFAEE;
+        transition: all 0.3s ease
+    }
+    .navbar {
+        position: relative; /* Parent harus memiliki posisi relatif */
+    }   
+    
     /* beranda */
     .hero-section {
-        margin-top: 100px;
+        position: relative !important;
         width: 100%;
         height: 380px;
         aspect-ratio: 14/ 9;
@@ -99,7 +113,7 @@
         }
     }
     .container.d-block {
-        margin-top: 360px; 
+        margin-top: 0px; 
     }
     #foto-ketua{
         width: 50%;
@@ -248,6 +262,29 @@
         height: 90%;
     }
 
+     /* navigasi */
+     #navigasi{
+        background-color: #FCFAEE !important;
+        padding: 15px 0;
+        margin: 0;
+    }
+    .collapsee{
+        position: absolute !important; 
+        top: 100%; 
+        left: 0;
+        margin: 0;
+        padding: 0px 40px;
+        width: 100%;
+        z-index: 10;
+        background-color: #FCFAEE;
+    }
+    .navbar {
+        position: relative; /* Parent harus memiliki posisi relatif */
+    }
+    .nav-item li {
+        padding: 40px 0px !important;
+    }
+    
      /* beranda */
     .hero-section {
         margin-top: 100px;
