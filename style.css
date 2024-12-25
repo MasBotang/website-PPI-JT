@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Global */
+* {
+    max-width: 100%;
+    box-sizing: border-box !important;
+}
+body{
+    background-color: #FCFAEE;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+.section{
+    margin: 0;
+    padding: 0;
+}
+.poppins{
+    font-family: 'Poppins', sans-serif;
+}
+.montserrat{
+    font-family: "Montserrat", serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Navigasi */
+#navigasi{
+    margin: 15px 30px;
+}
+.navbar{
+    position: relative;
+}
+.nav-link{
+    font-family: 'Poppins', sans-serif;
+    color: #b30000;
+    font-weight: 450;
+    padding: 0;
+}
+
+.active{
+    color: #b30000 !important;
+}
+/* Hero Section */
+.hero-section {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 20 / 9;
+    background-image: url('img/hero-img.png'); 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.hero-overlay h1 {
+    color: #b30000; 
+    font-family: "Montserrat", serif;
+    text-align: center;
+    font-weight: 800;
+    width: 80vw;
+}
+
+.second-footer-overlay {
+    position: relative;
+    width: 100%;
+    background-color: #b30000;
+    color: white;
+    overflow: hidden; 
+    padding: 8px 0; 
+}
+
+.second-footer-overlay  h2 {
+    display: inline-block;
+    white-space: nowrap; 
+    animation: scrollLeft 10s linear infinite; 
+    font-size: 18px;
+    font-weight: bold;
+}
+
+@keyframes scrollLeft {
+    0% {
+        transform: translateX(0); 
+    }
+    100% {
+        transform: translateX(-100%); 
+    }
+}
+
+
+
+.container.d-block {
+    margin-top: 45%; 
+}
+
+/* TENTANG KAMI SECTION */
+.tentang-kami{
+    font-family: "Montserrat", serif;
+    color: #b30000;
+}
+
+/* KETUA PPI SECTION */
+.ketua-ppi{
+    background-color: #b30000;
+}
+/* Tanda Kutip Atas */
+.quote-top {
+    font-size: 3rem; 
+    color: white; 
+    margin: 0; 
+}
+
+/* Tanda Kutip Bawah */
+.quote-bottom {
+    font-size: 3rem; 
+    color: white; 
+    margin: 0; 
+}
+
+
+h2.text-light {
+    font-size: 1.8rem; 
+    font-weight: 700; 
+    line-height: 1.4; 
+    font-family: "Montserrat", serif;
+}
+
+
+/* TENTANG KAMI */
+span.line {
+    display: inline-block;
+    border-top: 1px solid #333333a6;
+    width: 50px; /* Sesuaikan panjang garis */
+    margin: 0 10px; /* Jarak antar teks dan garis */
+    vertical-align: middle;
+}
+.container-equal-height {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.equal-height {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+/* Galeri */
+.heading-custom {
+    color: #B8001F;
+}
+.carousel-control-prev,
+.carousel-control-next {
+    opacity: 1 !important; 
+    border: none; 
+    outline: none; 
+    text-decoration: none;
+}
+
+/* Hubungi Kami */
+.img-hub{
+    width: 30px; 
+    height: 30px; 
+    margin-right: 20px;
+}
+.custom-form {
+    background-color: #FCFAEE;
+    border: 3px solid #b30000;
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 700px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+.custom-form input, .custom-form textarea {
+    background-color: #b30000;
+    border-radius: 10px;
+    padding: 10px 20px ;
+}
+.custom-form input::placeholder, 
+    .custom-form textarea::placeholder {
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+    }
+.btn-custom {
+    background-color: #b30000;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+/* Tentang Jakarta Timur */
+.header-JT{
+    color: #B8001F;
+}
+.about-jt1{
+    background-color: #B8001F; 
+    font-size: 12px; 
+    letter-spacing: 1px; 
+    font-weight: 400; 
+    border-radius: 15px;
+}
+
+.about-jt2{
+    color:#B8001F ; 
+    background-color: #FCFAEE; border: 2px solid #B8001F; 
+    font-size: 12px; 
+    letter-spacing: 1px; 
+    font-weight: 400; 
+    border-radius: 15px;
+}
+
+/* footer */
+.p-footer{
+    font-size: 20px !important;
+}
+.img-footer{
+    width: 250px;
+}
+.icon-footer{
+    width: 15px; 
+    height: 15px; 
+    margin-right: 5px;
+}
+
+
